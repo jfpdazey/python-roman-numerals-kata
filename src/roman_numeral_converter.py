@@ -1,3 +1,3 @@
 class RomanNumeralConverter(object):
     def convert(self, number):
-        return "I"
+        return number * "I"
