@@ -14,5 +14,8 @@ class RomanNumeralConverterTest(unittest.TestCase):
     def test_converts_five(self):
         self.assertEquals(self.my_converter.convert(5), "V")
 
+    def test_converts_six(self):
+        self.assertEquals(self.my_converter.convert(6), "VI")
+
 if __name__ == '__main__':
     unittest.main()
