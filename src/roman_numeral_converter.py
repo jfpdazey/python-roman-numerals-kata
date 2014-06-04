@@ -5,6 +5,9 @@ class RomanNumeralConverter(object):
         if (number >= 5):
             roman_numeral = "V"
             number = number -  5
+        if (number == 4):
+            roman_numeral = "IV"
+            number = 0
 
         roman_numeral = roman_numeral + (number * "I")
 
